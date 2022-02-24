@@ -10,5 +10,5 @@ Test the scaling feature by dragging the side of your browser in to condense the
 <br/>
 <br/>
 
-The link to the web4 page for this homework can be found below:
+The link to the web4 page for this homework can be found below: <br/>
 https://in-info-web4.informatics.iupui.edu/~jakemps/homework-four/
