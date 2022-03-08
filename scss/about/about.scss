@@ -78,9 +78,41 @@
 
 @media all and (max-width: 900px) {
     .about{
+
+        .about-header{
+            text-align: center;
+
+            hr{
+                margin: 0 auto;
+            }
+        }
         .about-clientquotes{
+
+            text-align: center;
+
+            hr{
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
             .quotes-person{
                 flex-direction: column;
+
+                .person-image{
+                    margin: 0 auto;
+
+                    margin-bottom: 10px;
+                }
+
+                .person-text{
+                    margin: 0 auto;
+
+                    margin-bottom: 10px;
+                }
+
+                .person-name{
+                    right: 45%;
+                }
             }
         }
     }

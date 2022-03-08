@@ -512,8 +512,32 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media all and (max-width: 900px) {
+  .about .about-header {
+    text-align: center;
+  }
+  .about .about-header hr {
+    margin: 0 auto;
+  }
+  .about .about-clientquotes {
+    text-align: center;
+  }
+  .about .about-clientquotes hr {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
   .about .about-clientquotes .quotes-person {
     flex-direction: column;
+  }
+  .about .about-clientquotes .quotes-person .person-image {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .about .about-clientquotes .quotes-person .person-text {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .about .about-clientquotes .quotes-person .person-name {
+    right: 45%;
   }
 }
 
